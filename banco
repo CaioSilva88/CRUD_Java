@@ -1,0 +1,14 @@
+create database teste;
+use teste;
+
+
+create table usuario(
+id int not null auto_increment primary key,
+usuarioNome varchar(45),
+senha varchar(45)
+
+
+);
+
+insert into usuario(usuarioNome,senha) values ('Caioo','123');
+select* from usuario;
